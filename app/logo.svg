@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <!-- Texto JSON2 en negrita -->
+  <text x="40" y="130" 
+        font-family="Arial, sans-serif" 
+        font-weight="900" 
+        font-size="100" 
+        fill="#1b207c"
+        style="letter-spacing: -2px;">
+    JSON2
+  </text>
+  
+  <!-- Reloj -->
+  <circle cx="460" cy="100" r="50" 
+          fill="none" 
+          stroke="#1b207c" 
+          stroke-width="8"/>
+  
+  <!-- Marcas de hora principales -->
+  <line x1="460" y1="58" x2="460" y2="70" stroke="#1b207c" stroke-width="6"/>
+  <line x1="460" y1="130" x2="460" y2="142" stroke="#1b207c" stroke-width="6"/>
+  <line x1="418" y1="100" x2="430" y2="100" stroke="#1b207c" stroke-width="6"/>
+  <line x1="490" y1="100" x2="502" y2="100" stroke="#1b207c" stroke-width="6"/>
+  
+  <!-- Manecillas del reloj (12 y 3) -->
+  <line x1="460" y1="100" x2="460" y2="70" 
+        stroke="#1b207c" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  
+  <line x1="460" y1="100" x2="490" y2="100" 
+        stroke="#1b207c" 
+        stroke-width="4" 
+        stroke-linecap="round"/>
+  
+  <!-- Punto central del reloj -->
+  <circle cx="460" cy="100" r="6" fill="#1b207c"/>
+</svg>
