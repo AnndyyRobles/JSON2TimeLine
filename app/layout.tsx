@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'JSON 2 TimeLine',
     description: 'Create beautiful timelines from JSON data',
     images: [{
-      url: 'https://json2timeline.netlify.app/',
+      url: 'https://json2timeline.netlify.app/logo.svg',
       width: 400,
       height: 200,
       alt: 'JSON 2 TimeLine Logo'
